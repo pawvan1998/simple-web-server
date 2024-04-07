@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      # Pre-build commands,if any
+      - echo "Starting pre-build phase"
+
+  build:
+    commands:
+      # Run tests or commands inside the Docker container
+      - echo "Running tests inside Docker container"
+      - docker run  --rm pawvan1998/web-server:v1
+  post_build:
+    commands:
+      # Post-build commands, if any
+      - echo "Build completed"
