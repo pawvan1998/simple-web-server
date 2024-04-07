@@ -3,25 +3,26 @@ EC2 instance on AWS using Terraform. Explore attributes like instance type, AMI,
 Installing the AWS CLI:
 Configuring AWS CLI Credentials:
 
- AWS Networking and IAM best practices to ensure better security
+ AWS Networking and IAM best practices to ensure better security.
 
- 
-AWSCodePipelineServiceRole-ap-south-1-jenkins
+AWSCodePipelineServiceRole-ap-south-1-jenkins.
 
-CodeBuildBasePolicy
-AWSServiceRoleForAmazonEKS
-AWSServiceRoleForElasticLoadBalancing
+CodeBuildBasePolicy.
 
-AWSServiceRoleForEc2InstanceConnect
-AWSServiceRoleForGlobalAccelerator
-AWSServiceRoleForAmazonEKSNodegroup
-ec2DescribeAvailabilityZones
 
-AmazonEC2ContainerRegistryFullAccess	
-AmazonEC2Access
-AmazonIamAccess
-AmazonElasticContainerRegistryAccess	
-AmazonElasticContainerRegistryPublicPowerUser
-AmazonS3Access
+AWSServiceRoleForAmazonEKS.
+AWSServiceRoleForElasticLoadBalancing.
 
-IAM OIDC provider
+AWSServiceRoleForEc2InstanceConnect.
+AWSServiceRoleForGlobalAccelerator.
+AWSServiceRoleForAmazonEKSNodegroup.
+ec2DescribeAvailabilityZones.
+
+AmazonEC2ContainerRegistryFullAccess.	
+AmazonEC2Access.
+AmazonIamAccess.
+AmazonElasticContainerRegistryAccess.	
+AmazonElasticContainerRegistryPublicPowerUser.
+AmazonS3Access.
+
+IAM OIDC provider.
